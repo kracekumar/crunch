@@ -4,7 +4,7 @@
 import os
 import sys
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 import crunch
 
@@ -29,9 +29,7 @@ setup(
     data_files = [
         'README.rst',
         ],
-    packages = [
-        'crunch',
-        ],
+    packages = find_packages(),
     install_required = required,
     tests_require = ['nose'],
     entry_point = {
