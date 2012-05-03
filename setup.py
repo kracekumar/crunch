@@ -33,10 +33,17 @@ setup(
         'crunch',
         ],
     install_required = required,
+    tests_require = ['nose'],
+    entry_point = {
+        'console_scripts': ['crunch = crunch.core.main',]
+        },
     license = 'ISC',
     classifiers = (
+        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
+        'Intended Audience :: End Users/Desktop',
+        'Intended Audience :: System Administrators',
         'Natural Language :: English',
         'License :: OSI Approved :: ISC License (ISCL)',
         'Programming Language :: Python',

@@ -2,3 +2,4 @@
 README.rst
 setup.py
 crunch/__init__.py
+crunch/core.py
