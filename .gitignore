@@ -2,5 +2,5 @@
 build/
 .tox
 dist/
-
+crunch.egg-info/*
 

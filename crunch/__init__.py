@@ -13,7 +13,7 @@ from __future__ import absolute_import
 #Meta data
 
 __title__ = 'crunch'
-__version__ = '0.0.2'
+__version__ = '0.0.2.2'
 __build__ = 0x00002
 __author__ = 'kracekumar'
 __license__ = 'ISC'

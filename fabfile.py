@@ -4,7 +4,7 @@ def push(branch):
     local("git push -u origin %s"%branch)
 
 def commit(message):
-    local("git commit -m '%s'"%message)
+    local("git commit -am '%s'"%message)
 
 def commit_and_push(message, branch):
     commit(message)

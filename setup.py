@@ -22,7 +22,14 @@ setup(
     name = 'crunch',
     version = crunch.__version__,
     description = 'Command line tool download and upload files',
-    long_description = open('README.rst').read() + '\n\n' ,
+    long_description = """
+    Crunch : Commandline tool to download, upload files to internet
+    ------
+
+    - Crunch is modern pythonic tool to download files like wget on top requests,
+      gevent, clint
+
+    """,
     author = 'kracekumar',
     author_email = 'me@kracekumar.com',
     url = "https://github.com/kracekumar/crunch",
@@ -30,14 +37,14 @@ setup(
         'README.rst',
         ],
     packages = find_packages(),
-    install_required = required,
+    install_requires = required,
     tests_require = ['nose'],
-    entry_point = {
+    entry_points = {
         'console_scripts': ['crunch = crunch.core.main',]
         },
     license = 'ISC',
     classifiers = (
-        'Development Status :: 4 - Beta',
+        'Development Status :: 1 - Planning',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Intended Audience :: End Users/Desktop',
