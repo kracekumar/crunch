@@ -1,6 +1,0 @@
-crunch.egg-info/PKG-INFO
-crunch.egg-info/SOURCES.txt
-crunch.egg-info/dependency_links.txt
-crunch.egg-info/entry_points.txt
-crunch.egg-info/requires.txt
-crunch.egg-info/top_level.txt
