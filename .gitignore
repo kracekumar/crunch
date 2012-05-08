@@ -3,4 +3,6 @@ build/
 .tox
 dist/
 crunch.egg-info/*
+crunch/build/*
+crunch/crunch.egg*
 
