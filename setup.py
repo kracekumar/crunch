@@ -16,7 +16,7 @@ if sys.argv[-1] == "publish":
     publish()
     sys.exit()
 
-required = ['requests', 'client', 'gevent']
+required = ['requests', 'clint', 'gevent']
 
 setup(
     name = 'crunch',
@@ -40,7 +40,7 @@ setup(
     install_requires = required,
     tests_require = ['nose'],
     entry_points = {
-        'console_scripts': ['crunch = crunch.core.main',]
+        'console_scripts': ['crunch = crunch.core:main',]
         },
     license = 'ISC',
     classifiers = (

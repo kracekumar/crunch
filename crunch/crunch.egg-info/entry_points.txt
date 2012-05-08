@@ -1,0 +1,3 @@
+[console_scripts]
+crunch = crunch.core
+
